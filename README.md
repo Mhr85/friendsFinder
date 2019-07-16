@@ -32,4 +32,4 @@ $ node server.js
 ![Main Page](app/public/assets/images/Mainpage.png)
 
 
-Heroku Link: 
+Heroku Link: https://friends-finder-at-rutgers.herokuapp.com/
