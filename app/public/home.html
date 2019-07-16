@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Finder - Home</title>
+
+    
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <style>
+            body {
+                background-color: #1c2938;
+                color: #f4f6f6;
+            }
+
+            h1   {color: blue;}
+            p    {color: red;}
+            .jumbotron {
+                background-color: #cd3f3e;
+                color: #f4f6f6;
+                margin: 10% auto;
+            }
+
+            .links {
+                color: #cd3f3e;
+            }
+
+            .links:hover {
+                color: #f4f6f6;
+            }
+
+            /* .my-btn {
+                background-color: #1c2938;
+                border: 1px  #f4f6f6;
+                color: #cd3f3e;
+            } */
+
+            .my-btn {
+                background-color: #f4f6f6;
+                border: 1px  #f4f6f6;
+                color: #1c2938;
+            }
+
+            .my-btn:hover {
+                background-color: #1c2938;
+                border: 1px  #f4f6f6;
+                color: #f4f6f6;
+            }
+        
+        </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="text-center"><i class="fas fa-users"></i> Friend Finder</h1>
+            <hr>
+            <h2></h2>
+            <h2>Take the survey to Meet your new friend!</h2>
+            <br>
+
+            <div>
+                <a href="/survey"><button type="button" class="btn btn-lg btn-primary my-btn"><span
+                            class="glyphicon glyphicon-list-alt"></span> Take Survey</button></a>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container text-center">
+                <p>
+                    <a class="links" href="/api/friends" target="blanck">API Friends List</a> | 
+                    <a class="links" href="https://github.com/Mhr85/friendsFinder.git" target="blanck">GitHub Repo</a>
+                </p>
+            </div>
+            <div class="footer-copyright">
+                <div class="container text-center">
+                    Mihir Patel © 2019
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
